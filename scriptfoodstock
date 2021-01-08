@@ -1,0 +1,14 @@
+INSERT INTO `saison` (`id`, `saison`) VALUES (NULL, 'saison');
+
+
+
+INSERT INTO `stock` (`id`, `stock`) VALUES (NULL, 'stock');
+
+
+INSERT INTO `type` (`id`, `type`) VALUES (NULL, 'type');
+
+
+INSERT INTO `aliment` (`id`, `nom`, `date_achat`, `prix_achat`, `stock_id`) VALUES (NULL, 'id', NOW(), 'prix_achat', 'stock_id');
+
+
+INSERT INTO `assoc_alim_type_saison` (`id`, `alim_id`, `type_id`, `saison_id`) VALUES (NULL, 'alim_id', 'type_id', 'saison_id');
